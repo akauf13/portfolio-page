@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&display=swap');
+/* font-family: 'Londrina Outline', cursive;
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Londrina Solid', cursive; */
+
+.logos {
+  margin-top: 0;
+  font-size: 3rem;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(227, 188, 159);
+  transition: 0.5s ease-in-out;
+}
+
+.footer-component {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 15s ease infinite;
+}
+
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+h1 {
+  /* font-family: 'Helvetica'; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin: 0;
+  margin-left: 11rem;
+  padding: 10px;
+  text-align: left;
+}
+
+.footer {
+  font-size: 30px;
+  display: flex;
+  color: black;
+  padding: 20px;
+  flex-wrap: wrap;
+  /* margin-top: 0; */
+  /* top: 0%;
+  left: 0%;
+  right: 0%; */
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 15s ease infinite;
+}
+
+.footer:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+      font-size: 30px;
+      margin-left: 4rem;
+    }
+    
+    .footer { 
+      font-size: 20px;
+      justify-content: center;
+
+    }
+
+    .footer-container {
+      justify-content: center;
+    }
+
+    .logos {
+      margin: 5px;
+      margin-top: 0;
+    }
+
+}
