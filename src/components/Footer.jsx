@@ -1,5 +1,6 @@
 import "./styles/Footer.css";
 import { AiFillLinkedin, AiFillGithub, AiFillMail, AiFillFile } from "react-icons/ai";
+import Resume from "../images/Resume-December-2022.pdf"
 
 function Footer() {
   return (
@@ -36,7 +37,7 @@ function Footer() {
           <div className="res">
             <a
               className="logos"
-              href=""
+              href={Resume} target="_blank"
             >
               <AiFillFile />
             </a>
