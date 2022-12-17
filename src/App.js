@@ -3,9 +3,8 @@ import Nav from "./components/Nav.jsx";
 import Home from "./screens/Home.jsx";
 import About from "./screens/About.jsx";
 import Projects from "./screens/Projects";
-import Resume from "./screens/Resume";
-import React, { useState, useEffect } from "react";
-import { Routes, Route, useParams } from "react-router-dom";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
 
@@ -21,7 +20,6 @@ function App() {
           path="/projects"
           element={<Projects />}
         />
-        <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
     </>

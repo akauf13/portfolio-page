@@ -1,5 +1,5 @@
 import "./styles/Footer.css";
-import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillMail, AiFillFile } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -31,6 +31,14 @@ function Footer() {
               href="mailto:adammkaufman10@gmail.com"
             >
               <AiFillMail />
+            </a>
+          </div>
+          <div className="res">
+            <a
+              className="logos"
+              href=""
+            >
+              <AiFillFile />
             </a>
           </div>
         </div>

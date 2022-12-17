@@ -8,7 +8,6 @@ function Nav() {
           <div className="navlink" activeClassName="active"><NavLink to="/">Home</NavLink></div>
           <div className="navlink" activeClassName="active"><NavLink to="/about">About</NavLink></div>
           <div className="navlink" activeClassName="active"><NavLink to="/projects">Projects</NavLink></div>
-          <div className="navlink" activeClassName="active"><NavLink to="/resume">Resume</NavLink></div>
       </div>
  </div>
     
