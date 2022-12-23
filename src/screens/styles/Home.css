@@ -38,3 +38,11 @@
   flex-direction: row;
   padding: 6px;
 }
+
+.look {
+  font-size: 32px;
+}
+
+span {
+  text-decoration: underline;
+}

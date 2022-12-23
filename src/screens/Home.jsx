@@ -11,6 +11,7 @@ import {
   DiDjango,
   DiPostgresql,
 } from "react-icons/di";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
@@ -68,6 +69,7 @@ function Home() {
             </Row>
         </div>
         </div>
+        <div className="look">Checkout some of my <NavLink to="/projects"><span>Projects</span></NavLink>.</div>
       </div>
     </>
   );
