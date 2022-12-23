@@ -1,8 +1,40 @@
 .title {
   justify-content: center;
+  font-size: 50px;
 }
 
 .intro {
-
+  padding-top: 40px;
   justify-content: baseline;
+}
+
+.page {
+  background-color: black;
+  /* height: 110vh; */
+}
+
+.all {
+  display: flex;
+  justify-content: space-around;
+}
+
+.techstack, .holder, .second, .fourth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+.logo {
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 6px;
 }

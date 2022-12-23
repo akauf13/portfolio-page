@@ -10,6 +10,7 @@ function Projects() {
       <div className="project-container"> 
         <div className="proj-content">
           <div className="proj1">
+            <h2>Word Guess</h2>
             <img src={wordGuess} alt="Game Project" className="project" />
             <a className="repo" href="https://github.com/akauf13/word-guess" target="_blank">
           <h4>Github Repo</h4>
@@ -19,7 +20,7 @@ function Projects() {
             </a>
           </div>
           <div className="proj2">
-
+          <h2>$hills</h2>
             <img src={Shills} alt="Twitter Clone Project" className="project" />
             <a className="repo" href="https://github.com/SEI-Buffleheads/twitter-clone-frontend" target="_blank">
           <h4>Github Repo</h4>
@@ -29,6 +30,7 @@ function Projects() {
             </a>
           </div>
           <div className="proj3">
+            <h2>Gen 1 Pokemon</h2>
             <img src={Mern} alt="MERN Stack Project" className="project" />
             <a className="repo" href="https://github.com/akauf13/mern-project" target="_blank">
           <h4>Github Repo</h4>
