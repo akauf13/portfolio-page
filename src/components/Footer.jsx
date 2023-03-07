@@ -1,6 +1,6 @@
 import "./styles/Footer.css";
 import { AiFillLinkedin, AiFillGithub, AiFillMail, AiFillFile } from "react-icons/ai";
-import Resume from "../images/Resume-December-2022.pdf"
+import Resume from "../images/Resume-March-2023.pdf"
 
 function Footer() {
   return (
