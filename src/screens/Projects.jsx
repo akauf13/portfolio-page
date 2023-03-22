@@ -11,8 +11,8 @@ function Projects() {
       <div className="project-container"> 
         <div className="proj-content">
           <div className="proj1">
-            <h2>Word Guess</h2>
-            <img src={wordGuess} alt="Game Project" className="project" />
+            <h2>Food @ Home</h2>
+            <img src={food} alt="Hackathon Project" className="project" />
             <a className="repo" href="https://github.com/akauf13/word-guess" target="_blank">
           <h4>Github Repo</h4>
             </a>
