@@ -40,7 +40,7 @@ function Projects() {
           <h4>Deployed Link</h4>
             </a>
           </div>
-          <div className="proj4">
+          {/* <div className="proj4">
             <h2>Gen 1 Pokemon</h2>
             <img src={Mern} alt="MERN Stack Project" className="project" />
             <a className="repo" href="https://github.com/akauf13/mern-project" target="_blank">
@@ -49,7 +49,7 @@ function Projects() {
             <a className="deploy" href="https://frabjous-cranachan-ff5b2c.netlify.app/" target="_blank">
           <h4>Deployed Link</h4>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       </>
