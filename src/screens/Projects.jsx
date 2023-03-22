@@ -13,7 +13,7 @@ function Projects() {
           <div className="proj1">
             <h2>Food @ Home</h2>
             <img src={food} alt="Hackathon Project" className="project" />
-            <a className="repo" href="https://github.com/akauf13/word-guess" target="_blank">
+            <a className="repo" href="https://github.com/laurenpowers20/we-got-food-at-home" target="_blank">
           <h4>Github Repo</h4>
             </a>
             <a className="deploy" href="https://jovial-crumble-1db7ec.netlify.app/" target="_blank">
