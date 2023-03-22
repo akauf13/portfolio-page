@@ -2,6 +2,7 @@ import "./styles/Projects.css"
 import wordGuess from "../images/word-guess-proj.png"
 import Shills from "../images/Shills.png"
 import Mern from "../images/mern-proj.png"
+import food from "../images/food-at-home.png"
 
 function Projects() {
   return ( 
