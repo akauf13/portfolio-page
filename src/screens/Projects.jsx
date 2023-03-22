@@ -16,7 +16,7 @@ function Projects() {
             <a className="repo" href="https://github.com/laurenpowers20/we-got-food-at-home" target="_blank">
           <h4>Github Repo</h4>
             </a>
-            <a className="deploy" href="https://jovial-crumble-1db7ec.netlify.app/" target="_blank">
+            <a className="deploy" href="https://we-got-food-at-home.netlify.app/" target="_blank">
           <h4>Deployed Link</h4>
             </a>
           </div>
