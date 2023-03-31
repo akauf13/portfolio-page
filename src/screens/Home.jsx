@@ -10,7 +10,9 @@ import {
   DiGit,
   DiDjango,
   DiPostgresql,
+  DiFirebase,
 } from "react-icons/di";
+import {IoLogoFirebase} from "react-icons/io5"
 import { NavLink } from "react-router-dom";
 
 function Home() {
@@ -48,6 +50,10 @@ function Home() {
             <Col xs={4} md={2} className="tech-icons">
               <DiPostgresql className="logo" />
               <p style={{ fontSize: "1.2em" }}>PostgreSQL</p>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <IoLogoFirebase className="logo" />
+              <p style={{ fontSize: "1.2em" }}>Firebase</p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <DiGit className="logo" />
